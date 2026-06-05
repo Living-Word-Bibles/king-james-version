@@ -18,7 +18,7 @@ const __dirname = path.dirname(__filename);
 // ------------------------ Config ------------------------
 const OUT_DIR = process.env.OUT_DIR ? path.resolve(process.env.OUT_DIR) : path.join(__dirname, "dist");
 const SITE_BASE_URL = (process.env.SITE_BASE_URL || "https://kjv.livingwordbibles.com").replace(/\/+$/, "");
-const LOGO_URL = process.env.LOGO_URL || "https://static1.squarespace.com/static/68d6b7d6d21f02432fd7397b/t/690209b3567af44aabfbdaca/1761741235124/LivingWordBibles01.png";
+const LOGO_URL = process.env.LOGO_URL || "https://www.livingwordbibles.com/assets/LivingWordBibles01.webp";
 
 // Primary data source: your repo (plus graceful fallbacks)
 const DATA_BASES = [
